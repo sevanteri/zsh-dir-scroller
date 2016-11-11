@@ -1,7 +1,7 @@
-function _dir_scroller_append {
+function _dir_scroller_empty {
     _dir_scroller_popped=()
 }
-add-zsh-hook chpwd _dir_scroller_append
+add-zsh-hook chpwd _dir_scroller_empty
 
 function _dir_scroller_reset_prompt {
     if zle; then
