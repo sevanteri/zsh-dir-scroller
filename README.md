@@ -1,6 +1,8 @@
 # zsh-dir-scroller
 Directory stack scroller for ZSH
 
+[![asciicast](https://asciinema.org/a/92386.png)](https://asciinema.org/a/92386)
+
 ## Install
 Install with your favorite plugin manager. Or manually if that's your cup of
 tea.
