@@ -32,8 +32,3 @@ _dir_scroller_popped=()
 
 zle -N _dir_scroller_prev
 zle -N _dir_scroller_next
-
-bindkey -M vicmd 'H' _dir_scroller_prev
-bindkey -M vicmd 'L' _dir_scroller_next
-
-export DIR_SCROLLER_RESETS=(prompt_pure_preprompt_render)
