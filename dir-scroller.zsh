@@ -1,3 +1,5 @@
+autoload -U add-zsh-hook
+
 function _dir_scroller_empty {
     _dir_scroller_popped=()
 }
