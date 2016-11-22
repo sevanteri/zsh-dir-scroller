@@ -3,6 +3,18 @@ Directory stack scroller for ZSH
 
 [![asciicast](https://asciinema.org/a/92387.png)](https://asciinema.org/a/92387)
 
+
+## How it works?
+
+It uses the ZSH's own directory stack functions `pushd` and `popd`.
+
+When you use `_dir_scroller_prev` your current directory (top off the ZSH's stack)
+is `popd` into another stack, created by the plugin.
+When you use `_dir_scroller_next`, the directory from the top of the plugin's
+stack is `pushd` into ZSH's stack.
+
+When you `cd` to another directory, the plugin's stack is emptied.
+
 ## Install
 Install with your favorite plugin manager. Or manually if that's your cup of
 tea.
